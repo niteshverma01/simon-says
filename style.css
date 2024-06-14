@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+}
+.btn-start{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #003566;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+    cursor: pointer;
+
+}
+.btn-container{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   height: 50%;
+   width: 100%;
+}
+.red{
+    background-color:#d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+/* .separation {
+    height: 7px;
+    background-color: black;
+    position: relative;
+    z-index: 20;
+} */
+  
+
+@media screen and (max-width: 700px) {
+    .btn{
+        height: 170px;
+        width: 170px;
+        border-radius: 20%;
+        border: 8px solid black;
+        margin: 1.7rem;
+    
+    }
+
+    
+}
+@media screen and (max-width: 420px) {
+    .btn{
+        height: 110px;
+        width: 110px;
+        border-radius: 20%;
+        border: 7px solid black;
+        margin: 1.5rem;
+    
+    }
+
+
+}
+@media screen and (max-width: 360px) {
+    .btn{
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+        border: 6px solid black;
+        margin: 0.8rem;
+    
+    }
+}
+
+    
+
+
+ 
+
+
